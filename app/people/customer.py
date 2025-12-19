@@ -5,4 +5,4 @@ class Customer:
 
 
     def watch_movie(self, movie):
-        print(f"Customer watch movie: {movie}")
+        print(f"{self.name} is watching {movie}")
